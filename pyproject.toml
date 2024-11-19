@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "parking"
+version = "0.1.0"
+description = "project for working with parking slot"
+authors = ["natalia_levant <an_smir@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = {extras = ["all"], version = "^3.1.0"}
+sqlalchemy = {extras = ["all"], version = "^2.0.36"}
+alembic = {extras = ["all"], version = "^1.14.0"}
+flask-sqlalchemy = "^3.1.1"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
